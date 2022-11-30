@@ -11,11 +11,9 @@ class Rectangle {
     this.height = height;
     this.width = width;
   }
-  // Getter
   get area() {
     return this.calcArea();
   }
-  // Method
   calcArea() {
     return this.height * this.width;
   }
@@ -26,11 +24,10 @@ class Triangle {
     this.height = height;
     this.base = base;
   }
-  // Getter
   get area() {
     return this.calcArea();
   }
-  // Method
+
   calcArea() {
     return (this.base * this.height)/2;
   }
